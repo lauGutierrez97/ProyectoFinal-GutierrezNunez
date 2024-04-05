@@ -1,0 +1,86 @@
+*, ::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.tituloLogin{
+    margin: 0;
+}
+
+.containerFondo{
+    background-image: url('../img/imagenFondo1.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#containerPrincipal{
+    padding: 1rem;
+    box-shadow: 0 0 20px black;
+}
+
+#loginContenedor{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputLogin{
+    padding: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+button{
+    padding: 0.5rem;
+}
+
+#containerLogin{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#barraBusqueda{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.card{
+    border: 0.5rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#containerBebidas{
+    max-width: 100vw;
+    background-color: rgb(158, 130, 130);
+    border: 0.5rem solid brown;
+
+}
+
+#containerCarrito{
+    max-width: fit-content;
+    background-color: rgb(174, 151, 151);
+    font-family: sans-serif;
+    border: 0.5rem solid white;
+}
+
+
+
